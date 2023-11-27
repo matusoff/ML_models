@@ -3,4 +3,4 @@ The neural network used in the app was designed with Tensorflow: https://github.
 The user provided images were loaded with Pillow: https://github.com/python-pillow/Pillow
 And Numpy was used to normalize those images: https://github.com/numpy/numpy
 
-refer to the NeutralNetwork_Taipy_ipynb Jupyter notebook
+refer to the NeutralNetwork_Taipy.ipynb Jupyter notebook
