@@ -21,7 +21,8 @@ Data Understanding
 This project uses a dataset called waze_dataset.csv. It contains synthetic data created for this project in partnership with Waze.
 The data consisted of approximately 15k unique trips and 13 features.
 The features included information on:
-column
+
+![column](https://github.com/matusoff/ML_models/assets/94809104/e3f473b6-d14a-43f5-b8e7-2d1d11bc789f)
 
 Column Name | Type | Description
 ID | int | A sequential numbered index
