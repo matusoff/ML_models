@@ -1,6 +1,6 @@
 # ML Models
 
-This repository is a collection of various machine learning models implemented for educational and demonstration purposes. It aims to provide a comprehensive set of examples for different machine learning techniques, ranging from basic algorithms to more advanced models.
+This repository is a collection of various machine learning models, personally developed and implemented. The project aims to provide a comprehensive set of examples for different machine learning techniques, ranging from basic algorithms to more advanced models, showcasing a wide array of applications and methodologies in the field of machine learning.
 
 ## Getting Started
 
