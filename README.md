@@ -31,12 +31,12 @@ jupyter notebook <notebook_name>.ipynb
 ```
 
 ### Models Included
-Linear Regression
-Logistic Regression
-Decision Trees
-Random Forest
-XGBoost
-Neural Networks
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- XGBoost
+- Neural Networks
 
 ### Acknowledgments
 Thanks to all the open-source projects and libraries that made this repository possible.
