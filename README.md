@@ -37,6 +37,7 @@ jupyter notebook <notebook_name>.ipynb
 - Random Forest
 - XGBoost
 - Neural Networks
+- Image Analysis with Tensorflow
 
 ### Acknowledgments
 Thanks to all the open-source projects and libraries that made this repository possible.
