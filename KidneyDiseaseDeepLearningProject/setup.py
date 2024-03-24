@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "KidneyDiseaseDeepLearningProject"
+REPO_NAME = "ML_models/KidneyDiseaseDeepLearningProject"
 AUTHOR_USER_NAME = "matusoff"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "osmatusovsky@gmail.com"
@@ -26,4 +26,5 @@ setuptools.setup(
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
-)
+    
+    )
