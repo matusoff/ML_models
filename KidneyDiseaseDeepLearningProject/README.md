@@ -1,8 +1,4 @@
 Kidney Disease Classification MLflow DVC
-
-### Dataset
-[kaggle](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone/code)
-
 ### Workflows
 
 1. Update config.yaml
@@ -49,26 +45,47 @@ python app.py
 ### dagshub
 [dagshub](https://dagshub.com)
 
--MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
+MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
 
--MLFLOW_TRACKING_USERNAME=YourUserName
+MLFLOW_TRACKING_USERNAME=YourUserName
 
--MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
+MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
 
 python script.py
 
 Run this to export as env variables:
 
-###  Linux and macOS
+### Linux or macOS
 ```bash
 export MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
 export MLFLOW_TRACKING_USERNAME=YourUserName
 export MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
 ```
 
-###  Windows
+### Windows
 ```bash
 set MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
 set MLFLOW_TRACKING_USERNAME=YourUserName
 set MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
 ```
+
+
+### DVC cmd
+
+1. dvc init
+2. dvc repro
+3. dvc dag
+
+### About MLflow & DVC
+
+#### MLflow
+
+- It is Production Grade
+- Trace all of your expriements
+- Logging & taging your model
+
+#### DVC
+
+- It is very lite weight for POC only
+- lite weight expriements tracker
+- It can perform Orchestration (Creating Pipelines)
