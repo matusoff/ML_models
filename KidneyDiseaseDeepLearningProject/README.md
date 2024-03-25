@@ -45,9 +45,9 @@ python app.py
 ### dagshub
 [dagshub](https://dagshub.com)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
-MLFLOW_TRACKING_USERNAME=YourUserName
-MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
+-MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
+-MLFLOW_TRACKING_USERNAME=YourUserName
+-MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
 
 python script.py
 
