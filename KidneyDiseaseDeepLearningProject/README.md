@@ -48,7 +48,7 @@ python app.py
 Run this to export as env variables:
 
 ```bash
-MLFLOW_TRACKING_URI=your link.mlflow
-MLFLOW_TRACKING_USERNAME=your user name
-MLFLOW_TRACKING_PASSWORD=your Tracking password
+export MLFLOW_TRACKING_URI=your link.mlflow
+export MLFLOW_TRACKING_USERNAME=your user name
+export MLFLOW_TRACKING_PASSWORD=your Tracking password
 ```
