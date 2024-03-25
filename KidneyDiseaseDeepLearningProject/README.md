@@ -55,8 +55,16 @@ python script.py
 
 Run this to export as env variables:
 
+###  Linux and macOS
 ```bash
 export MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
 export MLFLOW_TRACKING_USERNAME=YourUserName
 export MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
+```
+
+###  Windows
+```bash
+set MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
+set MLFLOW_TRACKING_USERNAME=YourUserName
+set MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
 ```
