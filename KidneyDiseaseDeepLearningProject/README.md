@@ -45,10 +45,16 @@ python app.py
 ### dagshub
 [dagshub](https://dagshub.com)
 
+MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
+MLFLOW_TRACKING_USERNAME=YourUserName
+MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
+
+python script.py
+
 Run this to export as env variables:
 
 ```bash
-export MLFLOW_TRACKING_URI=your link.mlflow
-export MLFLOW_TRACKING_USERNAME=your user name
-export MLFLOW_TRACKING_PASSWORD=your Tracking password
+export MLFLOW_TRACKING_URI=https://dagshub.com/YourLink.mlflow
+export MLFLOW_TRACKING_USERNAME=YourUserName
+export MLFLOW_TRACKING_PASSWORD=YourTrackingPassword
 ```
