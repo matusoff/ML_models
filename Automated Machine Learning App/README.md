@@ -15,13 +15,10 @@ Streamlit web application allows users to upload datasets, perform exploratory d
 2. Install the required dependencies:
    ```
    pip install -r requirements.txt
-   
    ```
-
 3. Run the Streamlit application:
     ```
    streamlit run test.py
-   
    ```
  
 ## Usage
@@ -31,5 +28,3 @@ After installation, the application will start running on your local server. You
 - Profiling: After uploading, select the 'Profiling' tab to view a detailed report of your dataset.
 - Machine Learning: Choose the 'Machine Learning' tab to build and compare models. Select your target variable and press 'Run Modelling' to start the process.
 - Download: After modeling, you can download the best performing model from the 'Download' tab.
-
-
