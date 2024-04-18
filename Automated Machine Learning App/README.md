@@ -11,8 +11,6 @@ Streamlit web application allows users to upload datasets, perform exploratory d
 
 ## Installation
 
-To run this project locally, you need to have Python installed on your machine (Python 3.7-3.10 recommended). You can then follow these steps:
-
 1. Install the required dependencies:
    ```
    pip install -r requirements.txt
