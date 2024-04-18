@@ -11,13 +11,14 @@ Streamlit web application allows users to upload datasets, perform exploratory d
 
 ## Installation
 
-1. Install the required dependencies:
+1. Python 3.10 or less
+2. Install the required dependencies:
    ```
    pip install -r requirements.txt
    
    ```
 
-2. Run the Streamlit application:
+3. Run the Streamlit application:
     ```
    streamlit run test.py
    
