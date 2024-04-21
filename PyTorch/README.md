@@ -33,7 +33,9 @@ run the script to train and save the model:
    python torchnn.py
   ```
 This will create a file model_state.pt which contains the trained model.
+
 2. Comment Out Training Code:
 After the initial training, you can comment out the training part in torchnn.py to prevent retraining every time you run the script.
+
 3. Image Recognition:
 Run the script again to perform image recognition using the saved model
