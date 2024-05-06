@@ -17,8 +17,6 @@ To run the Protein Prediction App on your local machine, follow these steps:
 ### Prerequisites
 Ensure you have Python 3.7+ installed along with the following libraries:
 - `streamlit`
-- `torch`
-- `fair-esm`
 - `requests`
 - `py3dmol`
 - `biotite`
