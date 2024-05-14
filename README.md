@@ -41,4 +41,5 @@ jupyter notebook <notebook_name>.ipynb
 
 ### Acknowledgments
 Thanks to all the open-source projects and libraries that made this repository possible.
+Original data for RNA_seq_cancer model can be found here: https://archive.ics.uci.edu/datasets
 
